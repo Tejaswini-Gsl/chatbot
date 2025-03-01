@@ -106,8 +106,6 @@ template = """
 prompt = PromptTemplate.from_template(template)
 
 # OpenAI model configuration
-# api_key = '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'
-# api_key = "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"
 # llm_openai = ChatOpenAI(model="gpt-4", api_key=api_key, temperature=0)
 
 llm_gemini = VertexAI(
@@ -163,3 +161,4 @@ if st.button("Clear Chat"):
     st.session_state.messages = []
     memory.clear()
     st.experimental_rerun()
+
