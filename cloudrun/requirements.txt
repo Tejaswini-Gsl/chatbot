@@ -1,0 +1,16 @@
+# streamlit==1.31.0
+# google-cloud-storage==2.14.0
+# langchain==0.1.0
+# # chromadb==0.4.25
+# chromadb==0.3.29
+# langchain-google-vertexai==0.0.3
+# langchain-google-community
+# openai
+
+streamlit
+google-cloud-storage
+langchain==0.1.14
+chromadb
+langchain_google_vertexai==0.1.2
+langchain-google-community
+openai
