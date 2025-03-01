@@ -10,6 +10,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
 
+# import chromadb.api
+
+# chromadb.api.client.SharedSystemClient.clear_system_cache()
+
 # Load environment variables
 load_dotenv()
 
